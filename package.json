@@ -2,10 +2,14 @@
   "name": "BE-Security-Login_Ex",
   "version": "1.0.0",
   "description": "Authentication and Authorization practice with simple login ",
-  "main": "index.js",
+  "main": "server.js",
   "repository": "git@github.com:DMawi17/BE-Security-Login_Ex.git",
   "author": "DMawi17 <75326045+DMawi17@users.noreply.github.com>",
   "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
   "dependencies": {
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
